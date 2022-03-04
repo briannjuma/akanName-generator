@@ -1,0 +1,19 @@
+/*--- google fonts import  --- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+/*--- global element presets --- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*--- body presets --- */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*--- styling below applies to title bar --- */
+#tabIcon {
+  border-radius: 50%;
+}
