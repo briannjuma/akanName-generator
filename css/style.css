@@ -7,13 +7,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*--- styling below applies to title bar --- */
 
 /*--- body presets --- */
 body {
   font-family: "Poppins", sans-serif;
-}
-
-/*--- styling below applies to title bar --- */
-#tabIcon {
-  border-radius: 50%;
+  background-image: url(../images/title.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 10%;
 }
