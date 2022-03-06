@@ -23,7 +23,7 @@
           provides you with a table as well as an automated form. Enjoy!!!
         </p>
         <div class="appFeatures">
-          <div>
+          <div id="table">
             <table>
               <caption>
                 Here are Ghanian day names.
@@ -74,8 +74,61 @@
               </tbody>
             </table>
           </div>
-          <div>
-            
+          <div id="form">
+            <form id="form" name="form" onsubmit="findDay()">
+              <legend>
+                Provide Your Data:
+                <hr />
+              </legend>
+              <label for="year ">Year of birth</label>
+              <input
+                type="number"
+                id="year"
+                name="year"
+                min="1900"
+                max="2022"
+                required
+                placeholder="Example: 1989"
+              />
+
+              <label for="month ">Month</label>
+              <input
+                type="number"
+                id="month"
+                name="month"
+                min="1"
+                max="12"
+                required
+                placeholder="Example: if  December=12, if May=5"
+              />
+
+              <label for="date ">Date</label>
+              <input
+                type="number"
+                id="date"
+                name="date"
+                min="1"
+                max="31"
+                required
+                placeholder="Example: 21 "
+              />
+
+              <p>Select your gender: <br /></p>
+              <div class="radio">
+                <label>
+                  Female
+                  <input type="radio" name="gender" value="Female" />
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Male
+                  <input type="radio" name="gender" value="Male" />
+                </label>
+              </div>
+
+              <input type="submit" value="Submit" />
+            </form>
           </div>
         </div>
       </div>
