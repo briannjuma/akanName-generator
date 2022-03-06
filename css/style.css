@@ -29,6 +29,18 @@ header h1 {
   font-size: 3vw;
 }
 
+@media screen and (max-width: 500px) {
+  header {
+    text-align: right;
+  }
+  header img {
+    width: 20vw;
+    margin-top: 5%;
+  }
+  header h1 {
+    font-size: 7vw;
+  }
+}
 /*--- styling below applies to footer ---*/
 footer {
   position: fixed;
