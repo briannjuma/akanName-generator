@@ -57,6 +57,31 @@ div#container p {
   padding: 3%;
 }
 
+div#container .appFeatures {
+  display: flex;
+}
+
+table {
+  width: 50%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+td,
+th {
+  padding: 5%;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: left;
+}
+
+form {
+  width: 50%;
+}
+
 @media screen and (max-width: 500px) {
   div#container {
     font-size: 3vw;
