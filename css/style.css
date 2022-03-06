@@ -12,8 +12,35 @@
 /*--- body presets --- */
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(../images/title.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0 10%;
+}
+/*--- styling below applies to header --- */
+header {
+  text-align: center;
+  margin: 1.5% 0%;
+  border-bottom: 2px solid black;
+}
+header img {
+  float: left;
+  width: 8vw;
+  border-radius: 50%;
+}
+header h1 {
+  font-size: 3vw;
+}
+
+/*--- styling below applies to footer ---*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  text-align: center;
+  padding: 1% 0% 0% 0%;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    font-size: 3vw;
+  }
 }
