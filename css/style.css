@@ -81,7 +81,7 @@ td {
   text-align: left;
 }
 
-div#form {
+div#formView {
   width: 50%;
 }
 form {
@@ -138,7 +138,7 @@ input[type="submit"]:hover {
     width: 100%;
     margin-bottom: 10%;
   }
-  div#form {
+  div#formView {
     width: 100%;
     margin-bottom: 5%;
   }
