@@ -1,4 +1,6 @@
+//first function
 var akan = function (y, m, d, g) {
+  // array use
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   var maleNames = [
     "Kwasi",
@@ -16,7 +18,8 @@ var akan = function (y, m, d, g) {
     return d && maleNames[d.getDay()];
   }
 };
-// second function
+
+// Jquery library
 $(document).ready(function () {
   $("form#form").submit(function (event) {
     event.preventDefault();
@@ -28,7 +31,8 @@ $(document).ready(function () {
 
     // inbuilt function for quick output
     alert("Your akan name is: " + result);
-    // clear form also page reset
+
+    // clears form also page reset
     document.getElementById("form").reset();
   });
 });
