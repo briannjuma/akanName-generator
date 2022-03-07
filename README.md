@@ -20,8 +20,9 @@ Here is a run through of how to set up the application
 * Get access to the Internet/Browser.
 * Click on live link provided : https://jumabrian.github.io/akanName-generator/
 ## Built With
-* HTML
-* CSS
+* HTML.
+* CSS.
+* Javascript.
 * JQuery.
 
 ## Tests
