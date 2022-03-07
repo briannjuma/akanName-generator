@@ -18,7 +18,7 @@ Here is a run through of how to set up the application
 * Step 3 : Open the index.html file to view the application on your preferred web browser
 ## Other Usage / Live link
 * Get access to the Internet/Browser.
-* Click on live link provided : 
+* Click on live link provided : https://jumabrian.github.io/akanName-generator/
 ## Built With
 * HTML
 * CSS
