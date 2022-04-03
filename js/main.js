@@ -11,6 +11,7 @@ var akanGenerate = function (y, m, d, g) {
   ];
 
   /*
+  // if i was to use the manually calculate century first math formula   
   // Get century
   var centuryInput = y * 0.01; // convert to decimal
   var century = Math.trunct(centuryInput); // remove decimal part you remain with century
